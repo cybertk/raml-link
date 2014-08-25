@@ -1,0 +1,26 @@
+{
+  "name": "raml-link",
+  "version": "0.0.1",
+  "description": "RAML Scaffolding",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cybertk/raml-link.git"
+  },
+  "keywords": [
+    "RAML",
+    "oauth2"
+  ],
+  "author": "Quanlong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cybertk/raml-link/issues"
+  },
+  "homepage": "https://github.com/cybertk/raml-link",
+  "dependencies": {
+    "express": "^4.8.5"
+  }
+}
