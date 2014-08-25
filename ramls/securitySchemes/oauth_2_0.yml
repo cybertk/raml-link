@@ -22,6 +22,6 @@ describedBy:
         Bad OAuth request (wrong consumer key, bad nonce, expired timestamp...). Unfortunately, re-authenticating the user won't help here.
 
 settings:
-  authorizationUri: {baseUri}}/oauth2/authorize
-  accessTokenUri: {baseUri}/oauth2/token
+  authorizationUri: http://raml.link/oauth2/authorize
+  accessTokenUri: http://raml.link/oauth2/token
   authorizationGrants: [ code, token ]
