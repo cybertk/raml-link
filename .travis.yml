@@ -1,0 +1,7 @@
+deploy:
+  provider: nodejitsu
+  user: quanlong
+  api_key:
+    secure: SDr7g2FWdDuPGLnyvZeApyGQpywSvfP4Gfsx5HG1PlFJn4HuNaKZ4WtZdtqCYvGVptqPafWQkosinPfZMoLsxIuLOTerMcNcrv2pyQkt3n39eV6yXxzhas128GLSzmgEZXaB5j53PUwyex6VXmJ8Nbo6cZOZ6r8xX4DGylDAMy4=
+  on:
+    repo: cybertk/raml-link
