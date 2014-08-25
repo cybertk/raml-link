@@ -25,6 +25,9 @@
     "express": "^4.8.5"
   },
   "subdomain": "raml-link",
+  "domains": [
+    "raml.link"
+  ],
   "engines": {
     "node": "0.10.x"
   }
