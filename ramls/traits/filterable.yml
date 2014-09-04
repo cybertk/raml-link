@@ -1,8 +1,0 @@
-filterable:
-  queryParameters:
-    <<filter_by>>:
-      description: |
-        Filter the list by <<filter_by>>
-      enum: <<enum>>
-      example: |
-        <<filter_by>>=<<example>>
