@@ -1,7 +1,7 @@
 queryParameters:
   <<filter_by>>:
     description: |
-      Filter the list by <<filter_by>>
+      <<desc>>
     type: string
     example: |
       <<filter_by>>=<<example>>
