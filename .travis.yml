@@ -7,7 +7,7 @@ deploy:
   password:
     secure: w+DQ3QUBcmCjw4/Vx8NY/PA1o+6OdiKcd0lA+lPoePzqu8x7Jt+PYO9gMpYKpIRVHJ9JdFu0y1/GZQ+KD6RQT51i9hQuxeevuBiHIdIk2vRawRudGNaKOyGt8OLfoH/k/GOynhBxRvC81aPh0+FwsAdqShe2d+gh+cwHQl0zX0Q=
   app:
-    master: link
-  domain: raml
+    master: ramllink
+  domain: quanlong
   on:
     repo: cybertk/raml-link
