@@ -1,10 +1,13 @@
 language: node_js
 node_js:
-  - 0.10
+- 0.1
 deploy:
-  provider: nodejitsu
-  user: quanlong
-  api_key:
-    secure: SDr7g2FWdDuPGLnyvZeApyGQpywSvfP4Gfsx5HG1PlFJn4HuNaKZ4WtZdtqCYvGVptqPafWQkosinPfZMoLsxIuLOTerMcNcrv2pyQkt3n39eV6yXxzhas128GLSzmgEZXaB5j53PUwyex6VXmJ8Nbo6cZOZ6r8xX4DGylDAMy4=
+  provider: openshift
+  user: kyan.ql.he@gmail.com
+  password:
+    secure: w+DQ3QUBcmCjw4/Vx8NY/PA1o+6OdiKcd0lA+lPoePzqu8x7Jt+PYO9gMpYKpIRVHJ9JdFu0y1/GZQ+KD6RQT51i9hQuxeevuBiHIdIk2vRawRudGNaKOyGt8OLfoH/k/GOynhBxRvC81aPh0+FwsAdqShe2d+gh+cwHQl0zX0Q=
+  app:
+    master: link
+  domain: raml
   on:
     repo: cybertk/raml-link

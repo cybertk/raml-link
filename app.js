@@ -4,13 +4,13 @@ var cors = require('cors')
 
 var app = module.exports = express();
 
-app.set('port', process.env.PORT || 3000);
+// Openshift first
+host = process.env.OPENSHIFT_NODEJS_IP || process.env.HOST || '0.0.0.0'
+port = process.env.OPENSHIFT_NODEJS_PORT || process.env.PORT || 3000
 
 app.use(cors())
 app.use(express.static(path.join(__dirname, 'ramls')));
 
-if (!module.parent) {
-  var port = app.get('port');
-  app.listen(port);
-  console.log('listening on port ' + port);
-}
+app.listen(port, host, function () {
+  console.log( "Listening on " + host + ":" + port )
+});
