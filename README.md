@@ -26,3 +26,7 @@ Provides OAuth2.0 support
 traits:
   - !include http://raml.link/traits/filterable.yml
 ```
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/cybertk/raml-link/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
